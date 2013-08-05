@@ -1,0 +1,42 @@
+//// Typography Defaults
+//
+//// Defaults for Base Typography
+//$base-font-size                 : $base-font-size;
+$base-family                    : sans-serif;
+$base-line-height               : 1.8em;
+//$text-direction                 : ltr;
+//
+//// Headings
+//
+//// Defaults for Headings
+$heading-weight                 : bold;
+$heading-style                  : normal;
+$heading-family                 : 'Minecraftia';
+//
+////    class-name  font-size    small size       line-height         font-weight       font-family 
+$h1 : h1          9em        1.8em            1em               $heading-weight   'h1'  ;
+$h2 : h2          2.7em          1.4em            1.2em               $heading-weight   $heading-family  ;
+$h3 : h3          1.5em        1.3em            $base-line-height   $heading-weight   $heading-family  ;
+//$h4 : h4          1.2em        1em              $base-line-height   $heading-weight   $heading-family  ;
+//$h5 : h5          1em          1em              $base-line-height   $heading-weight   $heading-family  ;
+//$h6 : h6          .9em         .9em             $base-line-height   $heading-weight   $heading-family  ;
+//
+//$headings: $h1, $h2, $h3, $h4, $h5, $h6;
+//
+//// Paragraph
+//$paragraph-line-height          : $base-line-height;
+//$paragraph-margin               : .5em 0;
+//
+//// Small
+//
+//$small                          : .85em;
+//$large                          : 1.23em;
+//
+//// Links
+//
+//$link-color                     : $secondary-color;
+//$link-text-decoration           : underline;
+//$link-hover-color               : $primary-color;
+//$link-transition                : $transition;
+//
+//$hr-border                      : 1px solid #ccc;

@@ -1,0 +1,78 @@
+@import "compass/css3/box-shadow";
+@import "compass/css3/text-shadow";
+body{
+    overflow-x: hidden;
+    background: url(../img/meteors.gif);
+    background-position: 650px 700px; 
+}
+
+html{
+    background: #000 url(../img/starsky.jpg);
+    background-size: 80%;
+    overflow-x: hidden;
+}
+
+p{
+    font-size: 1.2em;
+    color: #A1D1FF;
+}
+
+h2,h3{
+    color: #0082ff;
+}
+
+.button--primary{
+    @include box-shadow(0 -.3em #5e171d);
+    @include text-shadow(0 -.15em #800a02);
+    margin-top: .3em;
+}
+.button--primary:hover{
+    color: #fff;
+}
+
+.button--twitter{
+    background: url(img/twitter_icon.png) left no-repeat #00a8dd;
+    @include box-shadow(0 -.3em #006585);
+    @include text-shadow(0 -.15em #006585);
+    color: #fff;
+    border: none;
+    &:hover{
+        color: #fff;
+        background-color: #008bb7;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.color-transparent{
+    opacity: .5;
+}
+
+.panel--major{
+    @media(min-width: $tablet-breakpoint){
+
+    }
+}
+// Rocket Ships
+
+.ship{
+    width: 25%;
+    position: absolute;
+    z-index: 999;
+    pointer-events:none;
+}
+
+.ship--orange{ top: 110%; left: 84%; z-index: 0; }
+.ship--green{ top: 25%; left: 15%; }
+
+// Sponsors
+
+.sponsor{
+    max-width: 180px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.6em;
+    max-height: 70px;
+}

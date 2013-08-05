@@ -1,0 +1,6 @@
+{
+    "name": "Sass Extensions for Closure Cup",
+    "dependencies": {
+        "boxes": "https://github.com/juliankrispel/boxes.git#3c81ae54a8f8d05d89c85123193cd6c1c8874283"
+    }
+}

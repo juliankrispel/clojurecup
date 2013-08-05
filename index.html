@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clojure Cup</title>
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P|Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/style.css" rel="stylesheet"/>
+    <script src="bower_components/jquery/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <header class="relative row m-b--l mobile-m-b--t desktop-p-l--l desktop-p-r--l">
+    <h1><img class="full-width mobile-hide" src="img/logo.png" alt="Clojure Cup Logo"/><img class="full-width tablet-hide desktop-hide" src="img/small_logo.gif" alt="Clojure Cup Logo"/></h1>
+        <img class="ship ship--green" src="img/ship_green.png" alt="The vessel of Green"/>
+        <img class="ship ship--orange" src="img/ship_orange.png" alt="The vessel of Orange"/>
+    </header>
+    <div class="no-list-style row p--l">
+          <div class="desktop-5 tablet-10 tablet-offset-1 mobile-12 m-b desktop-p-r--l">
+            <div class="panel panel--major text-center no-margin">
+                <h6 class="color-transparent">Signups starts in</h6>
+                <div class="desktop-4 ellipsis">
+                    <span class="h2 desktop-block">27</span>
+                    <span class="color-transparent h6 tablet-m-l--t mobile-m-l--t">days</span>
+                </div>
+                <div class="desktop-4 ellipsis">
+                    <span class="h2 desktop-block">4</span>
+                    <span class="color-transparent h6 tablet-m-l--t mobile-m-l--t">hours</span>
+                </div>
+                <div class="desktop-4 ellipsis">
+                    <span class="h2 desktop-block">33</span>
+                    <span class="color-transparent h6 tablet-m-l--t mobile-m-l--t">minutes</span>
+                </div>
+            </div>
+            <a class="button button--primary h4 block text-wrap">
+                Subscribe to our newsletter 
+            </a>
+            <a class="button button--twitter h4 block text-wrap" href="">and follow us on Twitter</a>
+        </div>
+        <div class="desktop-7 tablet-m-t--l mobile-m-t--l tablet-10 tablet-offset-1 mobile-12 m-b desktop-p-l--l">
+            <h2>48 Hours of Clojure Hacking</h2>
+                    <p>Clojure Cup is a distributed programming competition for Clojure and ClojureScript programmers from all over the world, in the spirit of Rails Rumble and Node Knockout.</p>
+
+        </div>
+        <div class="row tablet-10 tablet-offset-1 ">
+            <div class="desktop-9 desktop-p-r--l">
+                <div class="row m-t--l">
+                    <h2>Your Idea, our Application</h2>
+                    <p>You will own the application you build, and can do whatever you want with it after the competition. You can open source your entry if you want, but there will be no requirement to do so.</p>
+                </div>
+
+                <div class="row m-t--l">
+                    <h2>May The Best Apps Win</h2>
+                    <div class="row m-t--s">
+                        <img src="img/cup.png" class="desktop-2 tablet-2 mobile-hide" alt="Clojure Cup Trophy"/>
+                        <p class="no-margin-top desktop-10 tablet-10 p-l--l mobile-no-padding">After the competition, a panel of expert judges will rank the entries, and their combined rankings will be used to find the winners. In addition to the expert judges, there will be a public vote with a separate award.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desktop-3 desktop-p-l--s text-center m-t--l m-b--l">
+                <small class="color-transparent">Brought to you by these kind folks</small>
+                <img class="sponsor" src="img/sponsors/Datomic.png"/>
+                <img class="sponsor" src="img/sponsors/deveo_logo_white.png"/>
+                <img class="sponsor" src="img/sponsors/flowdock.png"/>
+                <img class="sponsor" src="img/sponsors/Bookshelf_4in.png"/>
+                <img class="sponsor" src="img/sponsors/oreilly-white.png"/>
+                <img class="sponsor" src="img/sponsors/plumbr_logo_vector.png"/>
+                <img class="sponsor" src="img/sponsors/Siililogo.png"/>
+            </div>
+        </div>
+    </div>
+    <script type="text/javscript">
+        $(document).on('click', '#signup', function(){
+            $(this).toggleClass('hide')
+        });
+    </script>
+</body>
+</html>

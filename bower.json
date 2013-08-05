@@ -1,0 +1,6 @@
+{
+    "name": "Clojure Cup Website",
+    "dependencies": {
+        "jquery": "*"
+    }
+}
