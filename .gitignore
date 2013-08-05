@@ -4,3 +4,4 @@ bower_components
 extensions/*
 !extensions/bower.json
 !extensions/.bowerrc
+node_modules

@@ -1,8 +1,8 @@
 {
     "dependencies": {
-        "bower": "*",
+        "bower": "*"
     },
     "scripts": {
-        "build": "npm install && bower install && cd extensions && bower installl"
+        "build": "npm install && bower install && cd extensions && bower install"
     }
 }
